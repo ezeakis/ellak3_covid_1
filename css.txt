@@ -1,0 +1,72 @@
+body{
+  font-size:20px;
+}
+
+.container {
+  background-color:whitesmoke;
+  border-radius:10px;
+  padding:20px;
+  background-image:url(covid_im.png);
+  background-repeat:repeat;
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.col-1{
+  float:left;
+  width:25%;
+  margin-top:6px;
+}
+
+.col-2{
+  float:left;
+  width:75%;
+  margin-top:6px;
+}
+
+.personal{
+  background-color:PowderBlue;
+  border-radius:10px;
+  padding:20px;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+  opacity:0.9;
+  
+}
+.health{
+  background-color:PowderBlue;
+  border-radius:10px;
+  padding:20px;
+  width:60%;
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+  opacity:0.9;
+}
+
+input[type=submit]{
+background-color:LightSalmon;
+color:white;
+padding:12px 20px;
+border-radius:83px;
+border:none;
+cursor:pointer;
+float:right;
+
+
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

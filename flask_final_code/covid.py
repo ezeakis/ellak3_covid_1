@@ -11,3 +11,6 @@ def data_input():
 #    return "<p>Hello, World!</p>"
 #    return render_template('index.html', title='Home', user=user)  
     return render_template('index.html', title='Home')  
+
+
+app.run(host='0.0.0.0', port=81)

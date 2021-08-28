@@ -12,5 +12,9 @@ def data_input():
 #    return render_template('index.html', title='Home', user=user)  
     return render_template('index.html', title='Home')  
 
+@app.route("/output")
+def data_output():
+    return render_template('output.html', title='Output')  
+
 
 app.run(host='0.0.0.0', port=81)

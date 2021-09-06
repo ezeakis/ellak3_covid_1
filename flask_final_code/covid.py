@@ -6,7 +6,7 @@ from flask import render_template
 #?
 app = Flask(__name__)
 
-app.static_folder = 'tmp/static'
+#app.static_folder = 'tmp/static'
 
 
 @app.route("/")

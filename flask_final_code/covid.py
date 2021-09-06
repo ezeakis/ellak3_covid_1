@@ -6,11 +6,14 @@ from flask import render_template
 #?
 app = Flask(__name__)
 
+app.static_folder = 'tmp/templates/static'
+
+
 @app.route("/")
 def data_input():
 #    return "<p>Hello, World!</p>"
 #    return render_template('index.html', title='Home', user=user)  
-    return render_template('index.html', title='Home')  
+    return render_template('./index.html', title='Home')  
 
 @app.route("/output")
 def data_output():

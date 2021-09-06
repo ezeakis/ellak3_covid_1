@@ -15,7 +15,7 @@ def data_input():
 #    return render_template('index.html', title='Home', user=user)  
     return render_template('./index.html', title='Home')  
 
-@app.route("/output")
+@app.route("/output", methods=['POST',])
 def data_output():
     return render_template('output.html', title='Output')  
 

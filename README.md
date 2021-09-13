@@ -11,11 +11,11 @@
 Για τις ανάγκες του python κώδικα το μετατρέψαμε σε [αυτό](https://github.com/ezeakis/ellak3_covid_python_html/blob/main/Covid-Dataset-with-numbers.csv)
 
 Κατά την τελική εκδοχή όμως περιορίσαμε τα συμπτώματα/πληροφορίες στα
-Fever
-Headache
-Contact with COVID Patient
-Family working in Public Exposed Places
-Dry Cough
-Breathing Problem
-Wearing Masks
+Fever,
+Headache,
+Contact with COVID Patient,
+Family working in Public Exposed Places,
+Dry Cough,
+Breathing Problem,
+Wearing Masks 
 και το dataset μας ήταν [αυτό]()

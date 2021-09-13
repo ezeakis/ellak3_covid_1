@@ -5,3 +5,5 @@
 Θα χρησιμοποιηθούν Machine Learning packages της Python για την επεξεργασία των δεδομένων και HTML/CSS για την απεικόνιση
 
 Δεν προκύπτει κόστος υλοποίησης.
+
+Το αρχικό dataset ήταν [αυτό](https://github.com/ezeakis/ellak3_covid_python_html/blob/main/Covid%20Dataset.csv)

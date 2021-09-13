@@ -7,3 +7,7 @@
 Δεν προκύπτει κόστος υλοποίησης.
 
 Το αρχικό dataset ήταν [αυτό](https://github.com/ezeakis/ellak3_covid_python_html/blob/main/Covid%20Dataset.csv)
+
+Για τις ανάγκες του python κώδικα το μετατρέψαμε σε [αυτό](https://github.com/ezeakis/ellak3_covid_python_html/blob/main/Covid-Dataset-with-numbers.csv)
+
+Κατά την τελική εκδοχή όμως περιορίσαμε τα συμπτώματα και το dataset μας ήταν [αυτό]()

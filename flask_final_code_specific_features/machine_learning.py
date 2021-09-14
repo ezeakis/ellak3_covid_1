@@ -1,5 +1,5 @@
 import pandas as pd
-mydata = pd.read_csv("Covid-Dataset-with-numbers.csv")
+mydata = pd.read_csv("Covid-Dataset-with-numbers-and-restricted-columns.csv", sep=";")
 
 myfeatures = mydata.iloc[:, 0:-1]
 
@@ -11,6 +11,9 @@ x_train, x_test, y_train, y_test = train_test_split(myfeatures, mytargets, test_
 from sklearn.linear_model import LogisticRegression
 logisticRegr = LogisticRegression()
 logisticRegr.fit(x_train, y_train)
+
+def result():
+    return "hi"
 
 for sample_id in range(0, 20):
     print("id: {}".format(sample_id))

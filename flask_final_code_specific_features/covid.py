@@ -17,7 +17,11 @@ def data_input():
 
 @app.route("/output", methods=['POST',])
 def data_output():
-    return render_template('output.html', title='Output')  
+    #data = request.form
+    percentage = "25"
+    import machine_learning as ml
+    result =  ml.result()
+    return render_template('output.html', title='Output', percentage=percentage, result=result)  
 
 
 app.run(host='0.0.0.0', port=81)

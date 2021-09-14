@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   </head>
+   
+<body>
+  <div class="container">
+    <form method="POST" action="output">
+     
+     <div class="personal" >
+       
+      <div class="row">
+        
+        <div class="col-1">
+          <label for="onoma"> Όνομα </label>
+        </div>
+        
+        <div class="col-2">
+          <input type="text" name="onoma"><br><br>
+        </div>
+        
+        
+      </div>
+  
+      <div class="row">
+        
+        <div class="col-1">
+          <label for="last name">Επώνυμο</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="text" name="last name"><br><br>
+        </div>
+        
+        
+      </div>
+  
+      <div class="row">
+        
+        <div class="col-1">
+           <label for="perioxh">Περιοχή</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="text" name="perioxh"><br><br>
+        </div>
+
+        
+      </div>
+  
+      <div class="row">
+        
+        <div class="col-1">
+           <label for="ilikia">Ηλικία</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="text" name="ilikia"><br><br>
+        </div>
+
+        
+      </div>
+  
+      <div class="row">
+        
+        <div class="col-1">
+           <label >Φύλο</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="radio" name="gynaika">
+          <label for="gynaika">Γυναίκα</label>
+          <input type="radio" name="adras">
+          <label for="adras">Άντρας</label><br><br>
+        </div>
+
+      </div>   
+       
+     </div>
+     
+    <div class="health">
+    
+      <div class="row">
+        
+        <div class="col-1">
+            <label >Πρόβλημα Αναπνοής;</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="radio" name="nai Breathing Problem">
+          <label for="nai Breathing Problem">Ναι</label>
+          <input type="radio" name="oxi Breathing Problem">
+          <label for="oxi Breathing Problem">Όχι</label><br><br>
+        </div>
+
+        
+      </div>
+
+      <div class="row">
+        
+        <div class="col-1">
+            <label >Έχετε όσφρηση;</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="radio" name="nai osfrisi">
+          <label for="nai osfrisi">Ναι</label>
+          <input type="radio" name="oxi osfrisi">
+          <label for="oxi osfrisi">Όχι</label><br><br>
+        </div>
+
+        
+      </div>
+      <div class="row">
+        
+        <div class="col-1">
+            <label >Έχετε υποκείμενο νόσημα;</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="radio" name="nai nosima">
+          <label for="nai nosima">Ναι</label>
+          <input type="radio" name="oxi nosima">
+          <label for="oxi nosima">Όχι</label><br><br>
+        </div>
+
+        
+      </div>
+      <div class="row">
+        
+        <div class="col-1">
+            <label >Έχετε συγγενή άρρωστο με κορονοϊό;</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="radio" name="nai exo">
+          <label for="nai exo">Ναι</label>
+          <input type="radio" name="oxi nosima">
+          <label for="oxi nosima">Όχι</label><br><br>
+        </div>
+
+        
+      </div>
+  </div>
+  
+  <input type="submit">
+  
+</form>
+  </div>
+
+</body>
+</html>

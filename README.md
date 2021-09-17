@@ -6,7 +6,7 @@
 
 Δεν προκύπτει κόστος υλοποίησης.
 
-Το αρχικό dataset ήταν [αυτό](https://github.com/ezeakis/ellak3_covid_python_html/blob/main/Covid%20Dataset.csv)
+Το αρχικό dataset ήταν [αυτό](https://github.com/ezeakis/ellak3_covid_python_html/blob/main/Covid%20Dataset.csv) το οποίο εντοπίσαμε [εδώ](https://www.kaggle.com/hemanthhari/symptoms-and-covid-presence)
 
 Για τις ανάγκες του python κώδικα το μετατρέψαμε σε [αυτό](https://github.com/ezeakis/ellak3_covid_python_html/blob/main/Covid-Dataset-with-numbers.csv)
 

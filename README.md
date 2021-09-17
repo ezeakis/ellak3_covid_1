@@ -27,3 +27,13 @@ Breathing Problem
 Wearing Masks 
 
 και το dataset μας ήταν [αυτό](https://github.com/ezeakis/ellak3_covid_python_html/blob/main/Covid-Dataset-with-numbers-and-restricted-columns.csv)
+
+Στον φάκελο final_flask_code βρίσκεται ο τελικός κώδικας ο οποίος μπορεί να χρησιμοποιηθεί για να σηκωθεί το flask service με την εντολή
+
+python covid.py
+
+Ο χρήστης μετά μπαίνει στη σελίδα
+
+http://<host_ip_address>:81
+
+και συμπληρώνει τα συμπτώματα

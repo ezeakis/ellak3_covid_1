@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   </head>
+   
+<body>
+  <div class="container">
+    <form method="POST" action="output">
+     
+     <div class="personal" >
+       
+      <div class="row">
+        
+        <div class="col-1">
+          <label for="onoma"> Όνομα </label>
+        </div>
+        
+        <div class="col-2">
+          <input type="text" name="onoma"><br><br>
+        </div>
+        
+        
+      </div>
+  
+      <div class="row">
+        
+        <div class="col-1">
+          <label for="last name">Επώνυμο</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="text" name="last name"><br><br>
+        </div>
+        
+        
+      </div>
+  
+      <div class="row">
+        
+        <div class="col-1">
+           <label for="perioxh">Περιοχή</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="text" name="perioxh"><br><br>
+        </div>
+
+        
+      </div>
+  
+      <div class="row">
+        
+        <div class="col-1">
+           <label for="ilikia">Ηλικία</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="text" name="ilikia"><br><br>
+        </div>
+
+        
+      </div>
+  
+      <div class="row">
+        
+        <div class="col-1">
+           <label >Φύλο</label>
+        </div>
+        
+        <div class="col-2">
+          <input type="radio" name="gynaika">
+          <label for="gynaika">Γυναίκα</label>
+          <input type="radio" name="adras">
+          <label for="adras">Άντρας</label><br><br>
+        </div>
+
+      </div>   
+       
+     </div>
+     
+    <div class="health">
+    
+      <div class="row">
+        
+        <div class="col-1">
+            <label >Έχετε αναπνευστικό πρόβλημα;</label>
+        </div>
+        <div class="col-2">
+          <input type="radio" id="Breathing Problem" name="Breathing Problem" value="nai">
+          <label for="Breathing Problem">Ναι</label>
+          <input type="radio" id="Breathing Problem" name="Breathing Problem" value="oxi">
+          <label for="Breathing Problem">Όχι</label><br><br>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+            <label >Έχετε πυρετό;</label>
+        </div>
+        <div class="col-2">
+          <input type="radio" id="fever" name="fever" value="nai">
+          <label for="fever">Ναι</label>
+          <input type="radio" id="fever" name="fever" value="oxi">
+          <label for="fever">Όχι</label><br><br>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+            <label >Έχετε ξηρό βήχα;</label>
+        </div>
+        <div class="col-2">
+          <input type="radio" id="Dry Cough" name="Dry Cough" value="nai">
+          <label for="Dry Cough">Ναι</label>
+          <input type="radio" id="Dry Cough" name="Dry Cough" value="oxi">
+          <label for="Dry Cough">Όχι</label><br><br>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+            <label >Έχετε πονοκέφαλο;</label>
+        </div>
+        <div class="col-2">
+          <input type="radio" id="Headache" name="Headache" value="nai">
+          <label for="Headache">Ναι</label>
+          <input type="radio" id="Headache" name="Headache" value="oxi">
+          <label for="Headache">Όχι</label><br><br>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+            <label >Έχετε έρθει σε επαφή με κρούσμα;</label>
+        </div>
+        <div class="col-2">
+          <input type="radio" id="Contact with COVID Patient" name="Contact with COVID Patient" value="nai">
+          <label for="Contact with COVID Patient">Ναι</label>
+          <input type="radio" id="Contact with COVID Patient" name="Contact with COVID Patient" value="oxi">
+          <label for="Contact with COVID Patient">Όχι</label><br><br>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+            <label >Εργάζεται κάποιος από την οικογένειά σας σε περιβάλλον με έκθεση στο κοινό;</label>
+        </div>
+        <div class="col-2">
+          <input type="radio" id="Family working in Public Exposed Places" name="Family working in Public Exposed Places" value="nai">
+          <label for="Family working in Public Exposed Places">Ναι</label>
+          <input type="radio" id="Family working in Public Exposed Places" name="Family working in Public Exposed Places" value="oxi">
+          <label for="Family working in Public Exposed Places">Όχι</label><br><br>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+            <label >Φοράτε μάσκα;</label>
+        </div>
+        <div class="col-2">
+          <input type="radio" id="Wearing Masks" name="Wearing Masks" value="nai">
+          <label for="Wearing Masks">Ναι</label>
+          <input type="radio" id="Wearing Masks" name="Wearing Masks" value="oxi">
+          <label for="Wearing Masks">Όχι</label><br><br>
+        </div>
+      </div>
+
+
+
+  </div>
+  
+  <input type="submit">
+  
+</form>
+  </div>
+
+</body>
+</html>

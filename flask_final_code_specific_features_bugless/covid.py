@@ -21,34 +21,34 @@ def data_output():
     percentage = "25"
     import machine_learning as ml
     result =  ml.result()
-    if request.form['nai Breathing Problem'] == 'on':
+    if request.form['Breathing Problem'] == 'nai':
         feature1 = 1
-    elif request.form['oxi Breathing Problem'] == 'on':
+    elif request.form['Breathing Problem'] == 'oxi':
         feature1 = 0
-    if request.form['nai fever'] == 'on':
+    if request.form['fever'] == 'nai':
         feature2 = 1
-    elif request.form['oxi fever'] == 'on':
+    elif request.form['fever'] == 'oxi':
         feature2 = 0
-    if request.form['nai Dry Cough'] == 'on':
+    if request.form['Dry Cough'] == 'nai':
         feature3 = 1
-    elif request.form['oxi Dry Cough'] == 'on':
+    elif request.form['Dry Cough'] == 'oxi':
         feature3 = 0
-    if request.form['nai Headache'] == 'on':
+    if request.form['Headache'] == 'nai':
         feature4 = 1
-    elif request.form['oxi Headache'] == 'on':
+    elif request.form['Headache'] == 'oxi':
         feature4 = 0
-    if request.form['nai Contact with COVID Patient'] == 'on':
+    if request.form['Contact with COVID Patient'] == 'nai':
         feature5 = 1
-    elif request.form['oxi Contact with COVID Patient'] == 'on':
+    elif request.form['Contact with COVID Patient'] == 'oxi':
         feature5 = 0
-    if request.form['nai Family working in Public Exposed Places'] == 'on':
+    if request.form['Family working in Public Exposed Places'] == 'nai':
         feature6 = 1
-    elif request.form['oxi Family working in Public Exposed Places'] == 'on':
+    elif request.form['Family working in Public Exposed Places'] == 'oxi':
         feature6 = 0
-    if request.form['nai Wearing Masks'] == 'on':
+    if request.form['Wearing Masks'] == 'nai':
         feature7 = 1
-    elif request.form['oxi Wearing Masks'] == 'on':
-        feature8 = 0
+    elif request.form['Wearing Masks'] == 'oxi':
+        feature7 = 0
     import numpy as np
     myfeatures = np.array([[feature1,feature2,feature3,feature4,feature5,feature6,feature7],
                 ])        

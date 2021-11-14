@@ -13,7 +13,7 @@ def data_input():
 def data_output():
     percentage = "25"
     import machine_learning as ml
-    result =  ml.result()
+    #result =  ml.result()
     if request.form['Breathing Problem'] == 'nai':
         feature1 = 1
     elif request.form['Breathing Problem'] == 'oxi':
